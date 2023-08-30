@@ -1,0 +1,86 @@
+baseurl = "https://example.com"
+languageCode = "zh-CN"
+# 语言名称 ["English", "简体中文", "Français", "Polski", ...]
+languageName = "简体中文"
+title = "鲸鸣"
+theme = "hugo-tania"
+defaultContentLanguage = "zh-cn"
+paginate = 7
+
+disqusShortname = "https-hugo-tania-netlify-app"
+
+[params]
+  # Emoji will show before the blog title on site navbar.
+  titleEmoji  = ""
+
+  # Logo will show before the blog title on site navbar.
+  titleLogo = ""
+
+  # Enable float footnotes.
+  # Default to true
+  enableFootnotes = true
+
+  siteName = "Hugo Tania is Amazing"
+  siteDesc = "Hugo is Absurdly Fast!"
+  author = "Hugo Tania"
+
+  [params.colorScheme]
+    # Enable toggle colorScheme
+    # Default to true
+    toggle = true
+    # Default colorScheme
+    # Default to auto
+   # default = auto
+
+  # Limit how many categories filter show above search input.
+  # Default to 5
+  maxCategoryToShow = 10
+
+  # Show your social information with icon on index bio with `_index.md` content.
+  [params.socialOptions]
+    dev-to = ""
+    email = ""
+    facebook = ""
+    github = ""
+    instagram = ""
+    linkedin = ""
+    medium = ""
+    stack-overflow = ""
+    steam = ""
+    telegram = ""
+    twitter = ""
+    twitch = ""
+    whatsapp = ""
+  
+  # Comments settigns
+  [params.comments]
+    enabled = true
+    provider = "disqus"
+
+[menu]
+  [[menu.header]]
+  weight = 1  #权重
+  identifier = "posts"
+    # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
+    pre = ""
+    # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
+    post = ""
+  name = "Articles"
+  url = "/articles/"
+  [[menu.header]]
+  weight = 2
+  name = "about"
+  url = "/about/"
+[[menu.footer]]
+    name = "© 2023 鲸鸣"
+    url = "#"
+
+[markup]
+[markup.highlight]
+  noClasses = false
+  lineNos = true
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
