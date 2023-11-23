@@ -6,85 +6,47 @@
     <description>Recent content in Posts on 鲸鸣</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 31 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Sep 2023 14:52:33 +0000</lastBuildDate>
+    <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Footnote test</title>
-      <link>https://example.com/post/footnote/</link>
-      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/footnote/</guid>
-      <description>Lorem ipsum dolor sit amet1 consectetur adipisicing elit. Nemo tempora eum cumque neque voluptatum, odit ipsum consequatur animi.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora eum cumque neque voluptatum, odit ipsum2 consequatur animi.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora eum cumque neque voluptatum, odit ipsum consequatur animi.
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo tempora eum cumque neque voluptatum, odit ipsum consequatur animi.</description>
+      <title>Linux 基本命令</title>
+      <link>https://example.com/post/linux-command/</link>
+      <pubDate>Fri, 22 Sep 2023 14:52:33 +0000</pubDate>
+      <guid>https://example.com/post/linux-command/</guid>
+      <description>基本命令 创建文件夹命令:mkdir
+1 2 3 4 # mkdir www 在当前目录下创建一个www文件夹 # mkdir www/linux/zst -p 同时创建多个文件夹需要加 -p 删除命令:rm
+1 2 3 4 # rm test.txt 删除文件test.txt # rm -r home 删除文件可以直接使用rm命令，若删除目录则必须配合选项&amp;#34;-r&amp;#34; 删除当前目录下的所有文件及目录，命令行为：rm -r *
+文件通过rm命令删除 则无法恢复 请三思而后行</description>
     </item>
-    
     <item>
-      <title>Katex support</title>
-      <link>https://example.com/post/test-katex/</link>
-      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/test-katex/</guid>
-      <description>The following
-$$ \int_{a}^{b} x^2 dx $$
-Is an integral
-$$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
-Enable Katex in the config file by setting the katex param to true. This will import the necessary Katex CSS/JS.
-See the online reference of supported TeX functions.
-1 Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $ Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $
-1 2 3 Block math: $$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$ Block math:</description>
+      <title>2023年影视清单</title>
+      <link>https://example.com/post/inventory-ys/</link>
+      <pubDate>Tue, 12 Sep 2023 15:33:16 +0000</pubDate>
+      <guid>https://example.com/post/inventory-ys/</guid>
+      <description>2023年影视清单 电视剧 title start current end 爱情而已 # # # 飞狐外传 # # # 平凡之路 # # # 云襄传 # # # 夏花 # # # 九州缥缈录 # # # 公诉 # # # 漫长的季节 # # # 照亮你 # # # 欢颜 # # # 潜行者 # # # 鹊刀门传奇 # # # 骄阳伴我 # # # 去有风的地方 9.10 22 # 电影 | 这么多年 | 乌海 | 依兰的爱情故事 | 熊出没·狂野大陆 | 消失的她 ​</description>
     </item>
-    
     <item>
-      <title>MathJax support</title>
-      <link>https://example.com/post/test-mathjax/</link>
-      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/test-mathjax/</guid>
-      <description>The following
-$$ \int_{a}^{b} x^2 dx $$
-Is an integral
-$$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$
-Enable MathJax in the config file by setting the mathjax param to true. This will import the necessary MathJax CSS/JS.
-1 Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $ Inline math: $ \varphi = \dfrac{1+\sqrt5}{2}= 1.6180339887… $
-1 2 3 Block math: $$ \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } } $$ Block math:</description>
+      <title>Termux安装命令自动补全zsh</title>
+      <link>https://example.com/post/termux%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8zsh/</link>
+      <pubDate>Thu, 31 Aug 2023 11:13:45 +0000</pubDate>
+      <guid>https://example.com/post/termux%E5%AE%89%E8%A3%85%E5%91%BD%E4%BB%A4%E8%87%AA%E5%8A%A8%E8%A1%A5%E5%85%A8zsh/</guid>
+      <description> Termux介绍 Termux是一款强大的终端模拟器，可以在Android设备上运行各种Linux命令。如果想要在Termux中实现代码自动补全，可以使用一些特定的工具，如fish shell或zsh ，这里主要介绍zsh。
+zsh 介绍 zsh 是一个兼容 bash 的 shell，相较 bash 具有以下优点：
+Tab 补全功能强大。命令、命令参数、文件路径均可以补全。 插件丰富。快速输入以前使用过的命令、快速跳转文件夹、显示系统负载这些都可以通过插件实现。 主题丰富。 可定制性高。 关于 zsh 的更多的信息，可以访问 zsh.org查看 安装 zsh 在Termux中安装zsh，可以执行以下命令：
+1 pkg install zsh 第一次安装后可能需要手动启动一下zsh 直接在终端执行zsh命令就可以启动zsh如下：
+1 zsh 在启动后，就可以使用一些命令实现代码自动补全功能，例如： </description>
     </item>
-    
     <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://example.com/post/markdown-syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
+      <title>Termux安装使用git</title>
+      <link>https://example.com/post/termux-install-and-use-git/</link>
+      <pubDate>Wed, 30 Aug 2023 18:00:16 +0000</pubDate>
+      <guid>https://example.com/post/termux-install-and-use-git/</guid>
+      <description>开始安装git
+1 pkg install git 配置一下用户信息
+1 2 git config --global user.name &amp;#34;你的git用户名&amp;#34; git config --global user.email &amp;#34;注册git使用的邮箱&amp;#34; 安装ssh
+1 pkg install openssh 报错可以尝试安装一下openssl
+1 pkg install openssl 生成key
+1 ssh-keygen -t rsa -C &amp;#34;注册git使用的邮箱&amp;#34; </description>
     </item>
-    
-    <item>
-      <title>Example Lazy Load Image</title>
-      <link>https://example.com/post/example-lazy-load-image/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/example-lazy-load-image/</guid>
-      <description>Nya nya nyan meow meow mama More napping, more napping all the napping is exhausting stretch out on bed you are a captive audience while sitting on the toilet, pet me slap the dog because cats rule bleghbleghvomit my furball really tie the room together always hungry. Humans,humans, humans oh how much they love us felines we are the center of attention they feed, they clean miaow then turn around and show you my bum.</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://example.com/post/placeholder-text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/placeholder-text/</guid>
-      <description>&lt;p&gt;Lorem est tota propiore conpellat pectoribus de pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://example.com/post/emoji-support/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://example.com/post/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
   </channel>
 </rss>

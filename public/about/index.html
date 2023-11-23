@@ -11,16 +11,16 @@
     
     
     
-    <meta property="og:site_name" content="Hugo Tania is Amazing" />
+    <meta property="og:site_name" content="鲸鸣" />
     <meta property="og:title" content="关于 | 鲸鸣"/>
     <meta itemprop="name" content="关于 | 鲸鸣" />
     <meta name="twitter:title" content="关于 | 鲸鸣" />
     <meta name="application-name" content="关于 | 鲸鸣" /><meta name="twitter:card" content="summary"/>
 
-    <meta name="description" content="Hugo is Absurdly Fast!" />
-    <meta name="twitter:description" content="Hugo is Absurdly Fast!"/>
-    <meta itemprop="description" content="Hugo is Absurdly Fast!"/>
-    <meta property="og:description" content="Hugo is Absurdly Fast!" />
+    <meta name="description" content="鲸鸣 万物鲸鸣!" />
+    <meta name="twitter:description" content="鲸鸣 万物鲸鸣!"/>
+    <meta itemprop="description" content="鲸鸣 万物鲸鸣!"/>
+    <meta property="og:description" content="鲸鸣 万物鲸鸣!" />
 
     
 
@@ -29,6 +29,8 @@
     
     <link rel="stylesheet" href="/sass/main.min.37c5810302de1d8a07f2db7fe2d670dbfb955a70e642e0276bb479ae3d11c66d.css">
     
+    
+    <link rel="stylesheet" href="/css/APlayer.min.css">
 </head>
     
     <script>
@@ -97,8 +99,8 @@
                             
                               
                             
-                            By Hugo Tania | <time>January 01, 0001</time>
-                            | 0 minutes
+                            By 是琪琪呢 | <time>2023, 08-31</time>
+                            | 1 minutes
                         </div>
                         <div class="tags">
                             
@@ -110,7 +112,11 @@
     </article>
 
     <div class="article-post">
-    
+    <p>就这样简简单单</p>
+<blockquote>
+<p>Powered by <a href="https://gohugo.io/" title="Hugo">Hugo</a>&amp; <a href="https://vercel.com/" title="Vercel">Vercel</a><br>Theme by <a href="https://github.com/WingLim/hugo-tania" title="hugo-tania">hugo-tania</a></p>
+</blockquote>
+
     </div>
 </div>
 
@@ -120,39 +126,6 @@
  
 <div class="container">
     
-    <div class="disqus-container">
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    window.disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "https-hugo-tania-netlify-app" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</div>
-
-<script>
-    window.addEventListener('onColorSchemeChange', (e) => {
-        if (DISQUS) {
-            DISQUS.reset({
-                reload: true
-            })
-        }
-    })
-</script>
-
 </div>
 
 </main>
@@ -172,6 +145,29 @@
     <script defer src="/ts/features.706a523ba43e6d0427c7fdf2b9d05dbd0920d3f12942b453690b495cb2522743.js" 
     data-enable-footnotes="true"
     ></script>
+    
+<div id="aplayer" class="aplayer" data-order="random" data-id="5226108140" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8">
+
+
+<script src="/js/APlayer.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/Meting.min.js"></script>
+
+
+
+<script src="/js/pjax.js"></script>
+<script>
+var pjax = new Pjax({
+  elements: "a",
+  selectors: [
+    "title",
+    "meta[name=description]",
+    "main"
+  ],
+  cacheBust: false
+})
+</script>
+
 </footer>
 
     </body>

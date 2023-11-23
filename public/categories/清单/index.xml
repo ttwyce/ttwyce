@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>清单 on 鲸鸣</title>
+    <link>https://example.com/categories/%E6%B8%85%E5%8D%95/</link>
+    <description>Recent content in 清单 on 鲸鸣</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Tue, 12 Sep 2023 15:33:16 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/%E6%B8%85%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023年影视清单</title>
+      <link>https://example.com/post/inventory-ys/</link>
+      <pubDate>Tue, 12 Sep 2023 15:33:16 +0000</pubDate>
+      <guid>https://example.com/post/inventory-ys/</guid>
+      <description>2023年影视清单 电视剧 title start current end 爱情而已 # # # 飞狐外传 # # # 平凡之路 # # # 云襄传 # # # 夏花 # # # 九州缥缈录 # # # 公诉 # # # 漫长的季节 # # # 照亮你 # # # 欢颜 # # # 潜行者 # # # 鹊刀门传奇 # # # 骄阳伴我 # # # 去有风的地方 9.10 22 # 电影 | 这么多年 | 乌海 | 依兰的爱情故事 | 熊出没·狂野大陆 | 消失的她 ​</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linux on 鲸鸣</title>
+    <link>https://example.com/categories/linux/</link>
+    <description>Recent content in linux on 鲸鸣</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 22 Sep 2023 14:52:33 +0000</lastBuildDate>
+    <atom:link href="https://example.com/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux 基本命令</title>
+      <link>https://example.com/post/linux-command/</link>
+      <pubDate>Fri, 22 Sep 2023 14:52:33 +0000</pubDate>
+      <guid>https://example.com/post/linux-command/</guid>
+      <description>基本命令 创建文件夹命令:mkdir
+1 2 3 4 # mkdir www 在当前目录下创建一个www文件夹 # mkdir www/linux/zst -p 同时创建多个文件夹需要加 -p 删除命令:rm
+1 2 3 4 # rm test.txt 删除文件test.txt # rm -r home 删除文件可以直接使用rm命令，若删除目录则必须配合选项&amp;#34;-r&amp;#34; 删除当前目录下的所有文件及目录，命令行为：rm -r *
+文件通过rm命令删除 则无法恢复 请三思而后行</description>
+    </item>
+  </channel>
+</rss>

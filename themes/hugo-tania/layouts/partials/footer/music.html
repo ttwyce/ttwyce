@@ -1,0 +1,22 @@
+<!-- 悬浮音乐 -->
+<div id="aplayer" class="aplayer" data-order="random" data-id="5226108140" data-server="netease" data-type="playlist" data-fixed="true" data-autoplay="true" data-volume="0.8">
+
+<!-- aplayer -->
+<script src="/js/APlayer.min.js"></script>
+<script src="/js/jquery.min.js"></script>
+<script src="/js/Meting.min.js"></script>
+<!-- 悬浮音乐结束 -->
+
+<!-- pjax局部刷新 -->
+<script src="/js/pjax.js"></script>
+<script>
+var pjax = new Pjax({
+  elements: "a",
+  selectors: [
+    "title",
+    "meta[name=description]",
+    "main"
+  ],
+  cacheBust: false
+})
+</script>
